@@ -77,4 +77,4 @@ const battle1 = new Pokedex({
   defenseOfPlayer2: pikachu.defense,
 });
 
-console.log(battle1.play()); // bulbasaur win
+console.log(bulbasaur.play()); // bulbasaur win
