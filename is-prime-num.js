@@ -8,7 +8,7 @@ Edge Case; jika memasukan 0 atau angka negative maka return "harus memasukan ang
 */
 
 function isPrime(number) {
-  if (number < 3) return "harus memasukan angka mulai dari 2";
+  if (number < 2) return "harus memasukan angka mulai dari 2";
   else if (number % number == 0 || number % number == 1)
     return `${number} adalah bilangan prima`;
 }
